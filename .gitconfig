@@ -1,0 +1,10 @@
+[user]
+	name = Stefan Jenkner
+	email = stefan@jenkner.org
+[core]
+	autocrlf = input
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = matching
