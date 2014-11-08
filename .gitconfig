@@ -8,3 +8,5 @@
 	smudge = git-media-smudge %f
 [push]
 	default = matching
+[init]
+	templatedir = ~/.git-templates
