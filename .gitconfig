@@ -3,6 +3,8 @@
 	email = stefan@jenkner.org
 [core]
 	autocrlf = input
+	precomposeunicode = true
+	quotepath = false
 [push]
 	default = simple
 [init]
